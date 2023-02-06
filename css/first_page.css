@@ -1,0 +1,94 @@
+* {
+    margin:0px;
+    font-family: 'Jua', sans-serif;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #454c49, #1d1e1e);
+  background: linear-gradient(to right, #454c49, #1d1e1e);
+  font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    text-align: center;
+    color:white;
+    margin-top: 120px;
+    font-size: 60px;
+}
+
+.imgIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 20px;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+
+
+.btn{
+    text-align: center;
+}
+
+.btn1,.btn2{
+  
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn1:hover{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.btn2:hover{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn1:focus{
+    outline: none;
+}
+
+.btn2:focus{
+    outline: none;
+}
+
+.btn1{
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+.btn2{
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+

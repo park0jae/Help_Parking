@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    font-family: 'Jua', sans-serif;
+
+}
+
+
+.title{
+    text-align: center;
+    margin-top : 30px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+td{
+    height: 50px;
+}
+
+.navBarCon{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(62, 59, 59);
+    display: flex;
+}
+
+.navBarleft,
+.li_1
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.navBarleft{
+    font-size: 27px;
+    margin-top:30px;
+}
+
+li {
+    list-style: none;
+}
+
+.list{
+    display: flex;
+}
+
+.writeTitle{
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.writeForm{
+    width: 40%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.writeForm input[type=text]{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.writeTypeText
+{
+    width:95%;
+}
+
+.writeTextarea
+{
+    width: 95%;
+    height: 500px;
+    resize: none;
+}
+
+.writeBtn{
+    width: 95%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.writeBtn input[type=submit], .writeBtn input[type=button]{
+   font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,110 @@
+* {
+    margin:0px;
+    font-family: 'Jua', sans-serif;
+}
+.title{
+    text-align: center;
+    margin-top : 30px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+td{
+    height: 50px;
+}
+
+.navBarCon{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(62, 59, 59);
+    display: flex;
+}
+
+.navBarleft,
+.li_1
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.navBarleft{
+    font-size: 27px;
+    margin-top:30px;
+}
+
+li {
+    list-style: none;
+    
+}
+.li{
+    display: flex;
+}
+
+.viewTitle{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: fit-content;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.viewInfo{
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 50.2%;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-top: 2px solid #34495e;
+    border-bottom: 2px solid #34495e;
+    background-color: rgb(62, 59, 59);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.viewName{
+    float: left;
+}
+.viewTime{
+    text-align: right;
+    color:white;
+}
+
+.viewStory{
+    
+    margin-left: 350px;
+    width: 50%;
+    height: 600px;
+    overflow: scroll;
+    border: 2px solid;
+}
+
+.viewBtn{
+    margin-top: 20px;
+    margin-left: 350px;
+   
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.viewBtn a:link{
+    color: black;
+}
+
+.viewBtn a:hover{
+    color: #3498db;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+

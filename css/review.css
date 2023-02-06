@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    font-family: 'Jua', sans-serif;
+
+}
+body {
+    background: #f5f5f5
+}
+
+table {
+    border: 1px #a39485 solid;
+    font-size: .9em;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.th{
+    text-align: left;
+}
+
+thead{
+    font-weight: bold;
+    color: #fff;
+  background: #73685d;
+}
+
+#td, #th{
+    padding: 1em .5em;
+    vertical-align: middle;
+      
+}
+
+.title{
+    text-align: center;
+    margin-top : 30px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+#td{
+     
+ 
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background: #fff;
+  
+}
+
+.navBarCon{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(62, 59, 59);
+    display: flex;
+}
+
+.navBarleft,
+.li_1
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.navBarleft{
+    font-size: 27px;
+    margin-top:30px;
+}
+
+li {
+    list-style: none;
+}
+
+.list{
+    display: flex;
+}
+
+.reviewTitle{
+    width: fit-content;
+    height: 35px;
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.reviewTable{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-top: 2px solid #34495e;
+    border-bottom: 2px solid #34495e;
+}
+
+
+.reviewTable td{
+    padding: 5px;
+    border-bottom: 1px solid #34495e;
+}
+
+.reviewTable thead td{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reviewTable thead .reviewTd2{
+    width: 7%;
+    text-align: left;
+    
+}
+.reviewTable thead .reviewTd3{
+    width: 10%;
+    text-align: left;
+    
+}
+
+
+.reviewTable tbody .reviewTd1{
+    width: 3%;
+    font-size: 22px;
+}
+
+.reviewTable tbody .reviewTd2{
+    width: 10%;
+    text-align: left;
+    font-size: 22px;
+}
+
+.reviewTable tbody .reviewTd3{
+    width: 40%;
+    font-size: 22px;
+    text-align: left;
+}
+
+.reviewTable tbody .reviewTd4{
+    width: 20%;
+    font-size: 22px;
+}
+
+.reviewTable tfoot td{
+    height: 5px;
+    border: none;
+}
+
+.writeReview{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 600px;
+}
+
+.writeReview a:hover, .writeReview a:visited, .writeReview a:link{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.reviewTable a:link{
+    color: black;
+}
+
+.reviewTable a:hover{
+    color: #3498db;
+}
+
+
+.reviewTitle{
+    margin-left: 20px;
+}

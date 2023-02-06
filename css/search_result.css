@@ -1,0 +1,219 @@
+
+* {
+    margin:0px;
+    font-family: 'Jua', sans-serif;
+}
+.title{
+    text-align: center;
+    margin-top : 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+
+td{
+    height: 50px;
+}
+
+.navBarCon{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(62, 59, 59);
+    display: flex;
+}
+
+.navBarleft,
+.li_1
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.navBarleft{
+    font-size: 27px;
+    margin-top:30px;
+}
+
+li {
+    list-style: none;
+}
+
+table{
+    width:100%;
+    table-layout: fixed;
+  }
+  .tbl-header{
+    background-color: rgba(11, 55, 19, 0.3);
+   }
+  .tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(9, 49, 10, 0.3);
+  }
+  th{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  td{
+    padding: 15px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+  
+  
+  /* demo styles */
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  body{
+    background: -webkit-linear-gradient(left, #454c49, #1d1e1e);
+    background: linear-gradient(to right, #454c49, #1d1e1e);
+    font-family: 'Roboto', sans-serif;
+  }
+  section{
+    margin: 50px;
+  }
+  
+  
+  /* follow me template */
+  .made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: arial;
+    color: #fff;
+  }
+  .made-with-love i {
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+  .made-with-love a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .made-with-love a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+.reviewTable{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-top: none; 
+border-bottom: none; 
+border-left: none; 
+border-right: none; 
+    
+
+
+    
+}
+.reviewTable td{
+    padding: 5px;
+    border-bottom: 1px solid #34495e;
+    border-top: none; 
+border-bottom: none; 
+border-left: none; 
+border-right: none; 
+    
+}
+
+.reviewTable thead td{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.3);
+    
+}
+
+.reviewTable tbody .reviewTd1{
+    width: 10%;
+    font-size: 22px;
+}
+
+.reviewTable tbody .reviewTd2{
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.reviewTable tbody .reviewTd3{
+    width: 10%;
+    font-size: 22px;
+}
+
+#weather{
+    margin-top: 18px;
+    margin-left: 400px;
+    color: white;
+
+}
+
+.reviewlist tr{
+    margin-bottom: 30px;
+}
+
+.page_button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_num{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+tbody .parking_list{
+    margin-bottom: 20px;
+}
+
+.button_list{
+    font-size: 120px;
+}
+
+.search {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: end;
+}
+
+#distance {
+    color: red;
+}
+
+.li {
+    display: flex;
+}
+
+.li_2 {
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title{
+    margin-top: 20px;
+    color: white;
+}

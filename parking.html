@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pagination</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="parking.css" />
+   
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type ="module" src="js/park.js"></script>
+    <script src="js/location.js"></script>
+    <script src="js/mysql2.js"></script>
+  </head>
+  <body>
+    <div id = "weather">
+      <span></span>
+      <span></span>
+    </div>
+    <h1 class="title">주차장 목록</h1>      
+    </article>
+    <article class="article">
+      <ul class="contents">
+        <li class="content">
+          <span class="content__id">목록</span>
+          <span class="content__name">주차장</span>
+          <span class="content__size">면적</span>
+          <span class="content__operatingtime">운영시간</span>
+          <span class="content__fee">운영요금</span>
+          <span class="content__address">주소</span>
+          <span class="content__number">전화번호</span>
+          <span class="content__paidfree">유료/무료 여부</span> 
+        </li>
+      </ul>
+      <div class="buttons"></div>
+    </article>
+    <!-- Scripts -->
+    
+  </body>
+</html>

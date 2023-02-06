@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jua', sans-serif;
+
+  }
+  
+  .title{
+    text-align: center;
+    margin-top : 100px;
+    margin-bottom: 0px;
+  }
+
+  .article {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .content{
+    display: flex;
+    padding: 0.3em 0;
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+  }
+  .content__id,
+  .content__name,
+  .content__size{
+    flex:1;
+    margin-bottom: 20px;
+  }
+  .content__operatingtime,
+  .content__address,
+  .content__number,
+  .content__paidfree
+  {
+    flex:2;
+  }
+  .content__fee{
+    flex:3;
+  }
+  #list{
+    font-weight: bold;
+  }
+
+  .content__size {
+    /* text-align: left; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+  }
+  
+  .buttons {
+    position: relative;
+    padding: 1rem 0;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+  
+  .button.active,
+  .button:hover {
+    color: #1f975d;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .prev {
+    position: absolute;
+    left: -2.5rem;
+  }
+  
+  .next {
+    position: absolute;
+    right: -2.5rem;
+  }
+  
+  ion-icon {
+    padding-top: 0.05rem;
+  }
+
+  #weather{
+    margin-top: 15px;
+    color:black;
+    text-align: center;
+}
